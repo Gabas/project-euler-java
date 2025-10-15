@@ -11,6 +11,6 @@ Repositório dedicado à resolução dos problemas do [Project Euler](https://pr
 ## 🎯 Objetivos
 
 - ✅ Resolver **todos os desafios** propostos no site
-- ⏱️ Resolver **pelo menos 1 exercício por dia**(exceto em finais de semana)
+- ⏱️ Resolver **pelo menos 1 exercício por semana**
 - 📈 Melhorar o pensamento computacional e as habilidades com Java
 - 🧹 Manter o código **limpo, comentado e legível**
