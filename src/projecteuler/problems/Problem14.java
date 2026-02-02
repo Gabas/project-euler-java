@@ -12,23 +12,28 @@ public class Problem14 {
     public long solve() {
         long biggestChain = 0;
         long biggestEntry = 0;
-        for (long i = 0; i < 1000000; i++) {
+        
+        for (long i = 1; i < 1000000; i++) {
+            long currentChain = 1;
             long n = i;
             while (n != 1){
-                long currentChain;
+                
+                // A conjectura em si
                 if ((n % 2) == 0) {
                     n = (n/2);
                 } else {
                     n = (n*3)+1;
                 }
+
                 currentChain++;
+                // Verifica se a corrente atual é a maior dentre todas
+
                 if (currentChain > biggestChain){
                     biggestChain = currentChain;
                     biggestEntry = i;
                 }
             }
         }
-        System.out.println(biggestChain);
-        return biggestChain;
+        return biggestEntry;
     }
 }
