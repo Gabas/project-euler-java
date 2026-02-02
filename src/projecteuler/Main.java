@@ -16,6 +16,7 @@ public class Main {
 //        System.out.println("Solução do Problema 10: " + new Problem10().solve());
 //        System.out.println("Solução do Problema 11: " + new Problem11().solve());
 //        System.out.println("Solução do Problema 12: " + new Problem12().solve());
-        System.out.println("Solução do Problema 13: " + new Problem13().solve());
+//        System.out.println("Solução do Problema 13: " + new Problem13().solve());
+       System.out.println("Solução do Problema 14: " + new Problem14().solve());
     }
 }
